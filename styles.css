@@ -16,9 +16,9 @@ nav {
   align-self: stretch;
   display: flex;
   justify-content: center;
-  border-bottom: 1px solid rgb(212, 212, 212); /* nie daje się ułamkowych pixeli */
+  border-bottom: 1px solid rgb(212, 212, 212);
   box-shadow: 0 6px 20px rgba(0, 0, 0, 0.15);
-  padding: 1em 0;  /* padding zamiast na sztywno height */
+  padding: 1em 0;
   text-transform: capitalize;
   text-decoration: none;
   background-color: white;
@@ -28,11 +28,11 @@ nav .wrapper {
   display: flex;
   gap: 4em;
 }
-nav ul {  /* dotyczy tylko unordered line navigacji */
+nav ul {
   display: flex;
   gap: 1em;
   padding-left: 0;
-  list-style: none;  /* kasuje domuślne style listy */
+  list-style: none;
 }
 
 h4 {
